@@ -5,8 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <style>
@@ -14,8 +16,12 @@
         position:relative; 
         line-height:1.5;
         font-family:sans-serif; 
-        background-color:black;
-        /*color:white; */
+        background-color:white;
+    }       
+    img {
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
     }
     </style>
 
@@ -25,26 +31,89 @@
 
   <body>
     <!-- As a heading -->
-    <nav class="navbar navbar-light bg-light">
-    <span class="h1" class="navbar-brand mb-0">Kudinov Ivan</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Ivan.Kudinov</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="https://vk.com">VK</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="mailto:krnl03182@gmail.com">Mail</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://t.me/krnl0138">Telegram</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" 
+                href="https://github.com/idkudinovhse/idkudinovhse.github.io">Github.HSE</a>
+        </li>
+        </ul>
+    </div>
     </nav>
 
-    <div class="jumbotron">
-    <h1 class="display-3">Hello, HSE!</h1>
-    <img alt="Some funny doge" src="doge.jpg" class="img-thumbnail float-right rounded-circle">
-    <p class="lead">My name is Ivan Kudinov.</p>
-    <hr class="my-4">
-    <p>HSE School of Philosophy<br> BPH-173-6</p>
-    <p class="lead"> 
-        <a class="btn btn-primary btn-lg" href="https://vk.com/krnel" role="button">VK me!</a>
-    </p>
+    <div class="text-center jumbotron">
+        <h1 class="display-3">Hello, HSE!</h1>
+        <p class="lead">My name is Ivan Kudinov.</p>
+        <hr class="my-4">
+        <p>HSE School of Philosophy<br> BPH-173-6</p>
+        <p class="lead"> 
+            <a class="btn btn-primary btn-lg" href="https://vk.com/krnel" role="button">VK me!</a>
+        </p>
+        <div class="container col-sm-4">
+        <img alt="HSE logo" src="hse_1.png" href="https://hse.ru" 
+        class="img-fluid">
+        </div>
     </div>
-    
-    <address class="alert alert-dark">
-    <strong>Ivan Kudinov</strong><br>
-    <a href="mailto:#">krnl03182@gmail.com</a><br>
-    <abbr title="Phone">P:</abbr> (917) 023-7041
-    </address>
+   
+    <div class="container">
+    <h2>My interests</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="tech.jpg">
+            <div class="caption">
+            <p>New technologies: VR, AR, Crypto, decentralized 
+            web, hardware, software, statistics, data, etc...</p>
+          </div> 
+            </a>
+        </div>
+        </div>
+        <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="gnulinuxLogo.png" alt="Nature">
+            <div class="caption">
+                <p>Open|Free Software, GNU/Linux OSes Autism<br> (i use arch distro..)</p>
+          </div> 
+            </a>
+        </div>
+        </div>
+        <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="criterion.jpg" alt="criterion.jpg">
+            <div class="caption">
+            <p>Movies (Criterion says for itself)</p>
+          </div> 
+            </a>
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+        <br>
+        <br>
+        <address class="alert alert-dark">
+        <strong>Ivan Kudinov</strong><br>
+        <i class="fa fa-github"></i> <a 
+            href="https://github.com/idkudinovhse/idkudinovhse.github.io">github.hse</a><br>
+        <i class="fa fa-envelope-o"></i> <a href="mailto:krnl03182@gmail.com">krnl03182@gmail.com</a><br>
+        <i class="fa fa-phone"></i> (917) 023-7041
+        </address>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
